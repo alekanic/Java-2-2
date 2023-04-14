@@ -1,20 +1,20 @@
 public class Main {
     public static void main(String[] args) {
 
-    int start_capital = 100;
-    int add = 300;
-    int bonus;
+        int startCapital = 100;
+        int add = 300;
+        int bonus;
 
-    boolean money = add >= 1000;
+        boolean money = add >= 1000;
 
         if (money) {
             bonus = add / 100;
-            start_capital = start_capital + bonus + add;
+            startCapital = startCapital + bonus + add;
         } else {
-            start_capital = start_capital + add;
+            startCapital = startCapital + add;
         }
 
-    System.out.println(start_capital);
+        System.out.println(startCapital);
 
     }
 }
